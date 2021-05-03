@@ -1,7 +1,7 @@
 [
   {
     "name": "Foundry Tips",
-    "manifest": "https://github.com/vttred/tips/releases/latest/download/module.json",
+    "manifest": "https://raw.githubusercontent.com/vttred/tips/main/module.json",
     "description": null,
     "repository": "vttred/tips"
   }
