@@ -139,8 +139,8 @@
       });
 
       import("gh-releases-stats").then((module) => {
-        module.default.total(this.module.repository, (_err, count) => {
-          this.downloadCount = count;
+        module.default.byType(this.module.repository, (_err, typesDict) => {
+          this.downloadCount = typesDict.zip.downloadCount;
         })
       })
     },
