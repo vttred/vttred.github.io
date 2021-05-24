@@ -14,7 +14,7 @@
     <header>
       <v-card-title>
         <a
-          :href="manifest.url"
+          :href="url"
           target="_blank"
         >{{ manifest.title }}</a>
       </v-card-title>
@@ -107,12 +107,16 @@
       downloadCount: 0,
       languages: [],
       copyAlert: false,
-      dlVisible: false
+      dlVisible: false,
+      url: ""
     }),
 
     computed: {
       description() {
         return this.module.description || this.manifest.description;
+      },
+      url() {
+        return this.module.url || this.manifest.url;
       }
     },
 

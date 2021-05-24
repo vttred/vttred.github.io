@@ -3,6 +3,7 @@
     "name": "Foundry Tips",
     "manifest": "https://raw.githubusercontent.com/vttred/tips/main/module.json",
     "description": null,
-    "repository": "vttred/tips"
+    "repository": "vttred/tips",
+    "url": "https://www.foundryvtt-hub.com/package/tips/"
   }
 ]
