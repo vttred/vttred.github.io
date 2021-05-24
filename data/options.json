@@ -1,5 +1,5 @@
 {
   "publicPath": "/",
   "title": "VTT Red's Foundry Modules",
-  "dataUrl": "https://raw.githubusercontent.com/vttred/FoundryModules/master/data/modules.json"
+  "dataUrl": "https://raw.githubusercontent.com/vttred/vttred.github.io/master/data/modules.json"
 }

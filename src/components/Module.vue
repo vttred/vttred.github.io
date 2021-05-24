@@ -108,7 +108,6 @@
       languages: [],
       copyAlert: false,
       dlVisible: false,
-      url: ""
     }),
 
     computed: {
